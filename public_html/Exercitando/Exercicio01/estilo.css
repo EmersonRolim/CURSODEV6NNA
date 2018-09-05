@@ -1,4 +1,4 @@
-#NomeSite{
+#Titulo{
     font-size: 30pt;
     text-align: right;
     font-family:sans-serif;
@@ -7,6 +7,53 @@
     border-color:black;
     background: #00468E;
     padding: 10pt;
+    width: 700px;
+    height: 100px;
+
+
+}
+#Menu{
+    font-size: 10pt;
+    text-align: justify;
+    border-style: solid;
+    border-color: black;
+    background: #EEEEEE;
+    color: #000000;
+    border-style: solid;
+    border-color:black;
+    width: 706px;
+    height: 30px;
     
+}
+
+#Conteudo{
+    font-size: 10pt;
+    font-family: sans-serif;
+    color: #000000;
+    text-align: justify;
+    background: #FFFFFF;
+    border-style: solid;
+    border-color:black;
+    width: 500px;
+    height: 200px;
+}
+#Destaques{
     
+    font-size: 10pt;
+    font-family: sans-serif;
+    color: #00468E;
+    border-style: solid;
+    border-color:black;
+    width: 200px;
+    height: 200px;
+}
+#Rodape{
+    font-size: 10pt;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background: #00468E;
+    border-style: solid;
+    border-color:black;
+    width: 700px;
+    height: 50px;
 }
