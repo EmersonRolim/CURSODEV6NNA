@@ -1,0 +1,27 @@
+body{
+   
+}
+div{
+    font-size: 30px;
+    font-family: arial;
+    color: black;
+}
+p{
+    font-size: 40px;
+    font-family: helvetica;
+    color: blue;
+}
+#postagem{
+    font-size: 25px;
+    font-family: helvetica;
+    color: green;
+    
+}
+.conteudos{
+    color: red;
+}
+#Nome{
+    border: solid 1px #333;
+    margin: 50px;
+    padding: 20px;
+}

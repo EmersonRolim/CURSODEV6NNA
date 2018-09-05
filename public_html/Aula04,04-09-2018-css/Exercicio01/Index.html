@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Exercico01 CSS</title>
+        <link href="Estilo.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Formulário de cadastro</h1>
+        <form action="" method="post">
+            <div >
+                <fieldset id="DadosPessoais">
+                    <legend>Dados pessoeais</legend>       
+                    <p><b>Nome:</b><input type="text" size="30" required></p>
+                    <p><b>E-mail:</b><input type="email" size="30"></p>
+                    <p><b>Cidade:</b><input type="text" size="30"></p>
+
+                    <p><b>Estado:</b><select name="Estado" required>
+                            <option value="">Escolha...</option>
+                            <option value="PA">PA</option>
+                            <option value="PA">PB</option>  
+
+                        </select>
+                    </p>
+                </fieldset>
+            
+            
+            <fieldset id="DadosProfissionais">
+                <legend>Dados profissionais</legend>
+                <p><b>Cargo pretendido:</b></p>
+                <input type="radio" name="cargo" value="Analista de Sistemas">Analista de Sistemas
+                <input type="radio" name="cargo" value="Analista de banco de dados">Analista de banco de dados
+                <input type="radio" name="cargo" value="Analista de Suporte">Analista de Suporte
+                <p><b>Tecnologia de interesse:</b></p>
+                <input type="checkbox" name="Java" value="Java">Java
+                <input type="checkbox" name="HTML, CSS" value="HTML, CSS">HTML, CSS
+                <input type="checkbox" name="Javascript" value="Javascript">Javascript
+                <input type="checkbox" name="SQL" value="SQL">SQL
+                <p><b>Mini curiculo:</b></p>
+                <textarea cols="90" rows="5" id="MiniCurriculo"></textarea>
+            </fieldset>
+            <fieldset id="Acao">
+                <legend>Ações</legend>
+                <center><input type="submit" name="btEnviar" id="bt1">        <input type="reset" name="btLimpar" value="Limpar" id="bt2"></center>
+
+            </fieldset>
+        </form>
+        <div
+</body>
+</html>

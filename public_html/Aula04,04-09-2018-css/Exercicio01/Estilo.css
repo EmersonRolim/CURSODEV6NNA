@@ -1,0 +1,40 @@
+#DadosPessoais{
+    width: 90%;
+     background-color: lightblue;
+     border-style: dashed;
+}
+#DadosPessoais legend{
+    background-color: lightblue;
+}
+
+#DadosProfissionais{
+    width: 90%;
+    background-color: lightcoral;
+    border-style: dashed;
+}
+#DadosProfissionais legend{
+    background-color: lightcoral;
+}
+#MiniCurriculo{
+    width: 90%;
+        background-color: khaki;
+}
+#Acao{
+    width: 90%;
+    background-color: lightgreen;
+    border-style: dashed;
+}
+#Acao legend{
+    background-color: lightgreen;
+   
+}
+#bt1{
+    background-color: green;
+    font-size: 15px;
+    font-family: cursive;
+}
+#bt2{
+    background-color: orange;
+    font-size: 15px;
+    font-family: cursive;
+}
