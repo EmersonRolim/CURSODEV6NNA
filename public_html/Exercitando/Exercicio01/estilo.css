@@ -1,8 +1,12 @@
 #NomeSite{
     font-size: 30pt;
+    text-align: right;
     font-family:sans-serif;
     color:#FFFFFF;
     border-style: solid;
     border-color:black;
     background: #00468E;
+    padding: 10pt;
+    
+    
 }
