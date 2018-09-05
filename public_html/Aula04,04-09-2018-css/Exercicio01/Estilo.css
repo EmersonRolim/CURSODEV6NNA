@@ -1,7 +1,8 @@
 #DadosPessoais{
     width: 90%;
-     background-color: lightblue;
-     border-style: dashed;
+    background-color: lightblue;
+    border-style: dashed;
+    border-color: black;
 }
 #DadosPessoais legend{
     background-color: lightblue;
@@ -11,22 +12,25 @@
     width: 90%;
     background-color: lightcoral;
     border-style: dashed;
+    border-color: black;
 }
 #DadosProfissionais legend{
     background-color: lightcoral;
 }
 #MiniCurriculo{
     width: 90%;
-        background-color: khaki;
+    background-color: khaki;
+    border-color: black;
 }
 #Acao{
     width: 90%;
     background-color: lightgreen;
     border-style: dashed;
+    border-color: black;
 }
 #Acao legend{
     background-color: lightgreen;
-   
+
 }
 #bt1{
     background-color: green;
