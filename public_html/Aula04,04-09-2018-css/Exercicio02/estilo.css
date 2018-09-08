@@ -1,0 +1,18 @@
+#quadro{
+    color: red;
+}
+#tabela{
+    font-size: 16pt;
+    font-family: Tahoma;
+    color: blue;  
+}
+.conteudo{
+    font-size: 16pt;
+    font-family: Tahoma;
+}
+#media{
+    font-style: italic;
+}
+#todo{
+    background: #f1f1f1;
+}
