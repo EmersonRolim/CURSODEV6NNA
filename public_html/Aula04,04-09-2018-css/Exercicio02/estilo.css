@@ -1,18 +1,22 @@
-#quadro{
+h3{
     color: red;
 }
-#tabela{
+th{
     font-size: 16pt;
-    font-family: Tahoma;
+    font-family: "Arial", Times, serif;
     color: blue;  
 }
-.conteudo{
+table{
     font-size: 16pt;
-    font-family: Tahoma;
+    font-family: "Arial", Times, serif;
 }
 #media{
     font-style: italic;
 }
-#todo{
+body{
     background: #f1f1f1;
+    
+}
+#nota{
+    font-weight: bold;
 }
