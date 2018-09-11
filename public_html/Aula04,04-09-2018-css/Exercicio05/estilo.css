@@ -1,10 +1,36 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 11/09/2018, 06:46:50
-    Author     : usuario
-*/
+#topo{
+    background: green;
+    
+    
+}
+h2{
+    color: red;
+}
+.container{
+    display: flex;
+    background: green;
+    
+}
+#topo span{
+    color: black;
+    font-size: 16pt;
+    font-family: cursive;
+}
+#rodape{
+    background: green;
+    font-family: cursive;
+    
+    text-align: center;
+}
+#texto{
+    background: gainsboro;
+    margin-top: 2%;
+    padding: 12px;
+    font-family: cursive;
+    
+    
+}
+#tx{
+    color: gray;
+}
 

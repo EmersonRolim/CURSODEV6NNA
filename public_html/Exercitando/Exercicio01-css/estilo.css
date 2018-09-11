@@ -12,6 +12,10 @@
 
 
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
 #Menu{
     font-size: 10pt;
     text-align: justify;
@@ -24,6 +28,9 @@
     width: 706px;
     height: 30px;
     
+}
+a{
+    margin-right: 10px;
 }
 #Busca{
     width: 5px;
@@ -48,8 +55,8 @@
     color: #00468E;
     border-style: solid;
     border-color:black;
-    width: 200px;
-    height: 200px;
+    width: 198px;
+    height: 180px;
 }
 #Rodape{
     font-size: 10pt;
