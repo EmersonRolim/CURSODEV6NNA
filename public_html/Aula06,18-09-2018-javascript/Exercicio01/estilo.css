@@ -1,0 +1,52 @@
+#bt1{
+    font-family: Arial;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;   
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+
+}
+#bt2{
+    font-family: Arial;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;   
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+
+}
+#bt3{
+    font-family: Arial;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;   
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+
+}
+#bt4{
+    font-family: Arial;
+    font-size: 15px;
+    height: 40px;
+    width: 40px;   
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+
+}
+#t1{
+    background: beige;
+} 
+#t2{
+    background: beige;
+}
+#resultado{
+    color: red;
+    font-size: 30px;
+}
+
+

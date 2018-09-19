@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            
+            function Soma(){
+                var valor1 = document.getElementById("t1").value;
+                var valor2 = document.getElementById("t2").value;
+                var resultado = (parseFloat(valor1) + parseFloat(valor2));
+                document.getElementById("resultado").innerText="Resultado: "+resultado;
+            }
+             function Subtracao(){
+                var valor1 = document.getElementById("t1").value;
+                var valor2 = document.getElementById("t2").value;
+                var resultado = (valor1 - valor2);
+                document.getElementById("resultado").innerText="Resultado: "+resultado;
+            }
+            function Multiplicacao(){
+                var valor1 = document.getElementById("t1").value;
+                var valor2 = document.getElementById("t2").value;
+                var resultado = (valor1 * valor2);
+                document.getElementById("resultado").innerText="Resultado: "+resultado;
+            }
+            function Divisao(){
+                var valor1 = document.getElementById("t1").value;
+                var valor2 = document.getElementById("t2").value;
+                var resultado = (valor1 / valor2);
+                document.getElementById("resultado").innerText="Resultado: "+resultado;
+            }
+
+        </script>
+    </head>
+    <body>
+        <div>Calculadora</div>
+        #1: <input type="text" id="t1"><p>
+        #2: <input type="text" id="t2"><p>
+            <input type="button" id="bt1" value="+" onclick="Soma()">
+            <input type="button" id="bt2" value="-" onclick="Subtracao()">
+            <input type="button" id="bt3" value="*" onclick="Multiplicacao()">
+            <input type="button" id="bt4" value="/" onclick="Divisao()">
+        
+        <p id="resultado">Resultado:</p>
+
+
+    </body>
+</html>
