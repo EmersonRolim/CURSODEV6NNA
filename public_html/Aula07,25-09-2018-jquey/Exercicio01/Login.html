@@ -8,6 +8,7 @@ and open the template in the editor.
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
+        <script src="pages.js" type="text/javascript"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -16,15 +17,16 @@ and open the template in the editor.
             <table border="" align="center">
                 <tr>
                 <td>Login:</td>
-                <td align="center"><input type="text" name="Login" value=""></td>
+                <td align="center">  <input type="text" id="login" size="15" placeholder="Insira seu Login" autofocus="" required ></td>
                 
                 </tr>
                 <tr>
                 <td>Senha:</td>
-                <td align="center"><input type="password" name="Senha" value=""></td>
+                <td align="center"> <input type="password" id="senha" size="15" placeholder="Insira sua Senha" required ></td>
                 </tr>
-                <td><input type="submit" name="Entra"></td>
-                
+                <tr>
+               <td>  <input type="button" value="Entrar" name="btEntrar" onclick="LOG1()"> </td> <td align="center"> </td>
+                </tr>
             </table>
         </form>
     </body>
